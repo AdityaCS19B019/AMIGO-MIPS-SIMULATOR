@@ -12,4 +12,8 @@ If u want to skip the line or want to leave line as blank the just click enter d
 Must keep , immidiately after declaing register<br/>
 Space is not allowed between register and ,<br/>
 In li command i,e: "li $s2, " it should not be incomplete<br/>
+# Changes from actual MIPS architecture
+1.There is no "lw(load word)" command in our simulator
+2.Instead we kept "li(load integer)" command to replace it
+3.We have slt command which is slightly different from the original one<br/>that is, if comparison is true it jumps to the given adderess or label<br/>ex: slt $s1,$s2,label, if value in s1 is <br/> less than value in s2 then it jumps to the label.
 
