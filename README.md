@@ -1,6 +1,7 @@
 # Team : AMIGO
 # Developed by CS19B019, CS19B032
 # AMIGO-MIPS-SIMULATOR
+# procedure
 First download all the files<br/>
 Then kepp all files in the same folder<br/>
 Then run App.py file<br/>
