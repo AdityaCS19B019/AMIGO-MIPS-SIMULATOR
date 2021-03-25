@@ -781,7 +781,6 @@ class Main:
         count = 0
 
         self.print("--------------Running--------------------\n")
-
         while count < gth:
             if linstr[count].find('li') > -1:
                 self.load(linstr[count])
@@ -825,6 +824,5 @@ class Main:
             else:
                 self.gui.output.insert("insert", '\ninstruction not found at line ' + str(count + 1))
             count = count + 1
-
-            self.print("\n--------------Terminated----------------\n")
+        self.print("\n--------------Terminated----------------\n")
 
